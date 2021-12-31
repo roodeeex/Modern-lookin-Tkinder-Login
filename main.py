@@ -98,7 +98,7 @@ label.place(x=143 , y=32 , anchor=NW)
 
 root.mainloop()
 
-texttrue = Label(root, text='Login succefully' , font=('ariel' , 12) ,bg="#1b1b1b" , bd=0 , fg = '#248503')
+texttrue = Label(root, text='Login successfully' , font=('ariel' , 12) ,bg="#1b1b1b" , bd=0 , fg = '#248503')
 
 if e1.get() == 'admin' and e2.get() == 'admin':
     texttrue.place(x=207 , y=450)
